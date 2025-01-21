@@ -33,7 +33,6 @@ struct OnboardingColorView: View {
         .toolbar(.hidden, for: .navigationBar)
     }
     
-    
     private var colorGrid: some View {
         LazyVGrid(
             columns: Array(repeating: GridItem(.flexible(), spacing: 16), count: 3),
